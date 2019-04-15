@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Sushil Bahuguna</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open NavDrawer</string>
+    <string name="navigation_drawer_close">Close NavDrawer</string>
+    <string name="address">Secretory Gramin Kshetra Vikash Samiiti from 23rd June 1999 to 2009, President from 23rd June 2009
+        at present Gramin Kshetra Vikash Samiiti, Government nomited nodal person of Zila Viklangh Punwervesh Kendra Tehri from 2003</string>
+    <string name="intt">Social servicwe for the downtrodden and the Scheduled Castes and Scheduled Tribes\nTo organize weaker
+        sectionsof the society special for Disabled people\nDistributed 200Wheel Chairs, 1000 Crench, 1500 Sticks,500 glass, 100 limbs to
+    disabled people from June 2000 onwards.</string>
+    <string name="hobb">Reading, Gardening, Rural Development and planning and disabled welfare</string>
+    <string name="training">1. Attended training in Swajal Lucknow as Team Leader on 1997 PP-I\n\n
+    2. Attended National Conference on Indian Management for Nation Building: New Ideas for the New Millennium,
+    organised by WISDOM, Banasthali Vidhyapith, Rjasthan, 27th-28th November, 1999\n\n
+    3. Attended National Seminar in Rajasthan: Next Millennium - Status of Women with Special Reference to Education, organized
+    by Banasthali Vidhyapith, Rjasthan, 28th-29th January, 2000.\n\n
+    4. Training at ATI Nanital for NGP Verification.</string>
+    <string name="about">A 3rd year engineering student, working on android and have experience of 2 year and have worked on projects at intercollege level and too worked as freelancer.</string>
+</resources>

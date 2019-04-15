@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Tab2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/mouu"
+            android:src="@drawable/rec4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ABOUT"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="150sp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorAccent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10sp"
+                android:weightSum="40">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="39"
+                    app:cardBackgroundColor="@color/shade"
+                    app:cardCornerRadius="10dp">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp">
+
+                            <TableRow android:weightSum="2">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="Name"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="Sushil Bahuguna"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+                            </TableRow>
+
+                            <TableRow
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="Father's Name"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="Shri Achyauta Nand Bahuguna"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+                            </TableRow>
+
+                            <TableRow android:weightSum="2">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="Mother's Name"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="Shrimati Puspa Devi"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+                            </TableRow>
+
+                            <TableRow
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="Date of Birth"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="12 January 1973"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+                            </TableRow>
+
+                            <TableRow android:weightSum="2">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="Place of Birth"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="Tehri Garhwal"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+                            </TableRow>
+
+                            <TableRow
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="Marital Status"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="Married"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+                            </TableRow>
+
+                            <TableRow android:weightSum="2">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="Children"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="02"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+                            </TableRow>
+
+                            <TableRow
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="Permanent Address"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="Vill and Post- Ranichsuri Tehri Garhwal"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+                            </TableRow>
+
+                            <TableRow android:weightSum="2">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="Present Address"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="Gramin Kshetra Vihash Samiti RADS, Ranichauri, Tehri Garhwal"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+                            </TableRow>
+
+                            <TableRow
+                                android:orientation="horizontal"
+                                android:weightSum="2">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="Email"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:text="sushilbahuguna@gmail.com"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+                            </TableRow>
+                            <TableRow
+                                android:weightSum="2">
+                                <TextView
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    android:layout_width="0dp"
+                                    android:text="Freedom Fighter"/>
+                                <TextView
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    android:layout_width="0dp"
+                                    android:textColor="@color/colorAccent"
+                                    android:text="No"/>
+                            </TableRow>
+                            <TableRow
+                                android:weightSum="2">
+                                <TextView
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    android:layout_width="0dp"/>
+                                <TextView
+                                    android:layout_weight="1"
+                                    android:padding="5dp"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    android:layout_width="0dp"
+                                    android:textColor="@color/colorAccent"/>
+                            </TableRow>
+
+                        </TableLayout>
+                    </ScrollView>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorAccent" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorAccent" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

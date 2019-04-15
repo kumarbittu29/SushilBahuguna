@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Tab2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/mouu"
+            android:src="@drawable/rec4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="EDUCATION"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="200sp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorAccent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10sp"
+                android:weightSum="40">
+
+                <android.support.v7.widget.CardView
+                    android:layout_weight="39"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:cardBackgroundColor="@color/shade"
+                    app:cardCornerRadius="10dp"
+                    android:elevation="10dp"
+                    app:cardElevation="15dp">
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="3dp">
+
+                        <TableRow>
+
+                            <TextView
+                                android:padding="8dp"
+                                android:text="S No."
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:padding="8dp"
+                                android:text="Examination\nPassed"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:padding="8dp"
+                                android:text="Board/\nUniversity"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:padding="8dp"
+                                android:text="State of\nobtainment"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:padding="8dp"
+                                android:text="Year of\nPassing"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:padding="8dp"
+                                android:text="Division"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:padding="8dp"
+                                android:text="Subjects"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </TableRow>
+                        <TableRow>
+                            <TextView
+                                android:text="1."
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="High School"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="U.P. Board,\nAllahabad"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="Uttar\nPradesh"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="1987"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="II"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="Hindi, English,\nS.Science, Science,\nMaths, Commerce"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                        </TableRow>
+                        <TableRow>
+                            <TextView
+                                android:text="2."
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="Intermediate"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="U.P. Board,\nAllahabad"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="Uttar\nPradesh"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="1989"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="II"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="Hindi, English,\nCom Banking"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                        </TableRow>
+                        <TableRow>
+                            <TextView
+                                android:text="3."
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="B.Com"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="Garhwal\nUniversity,\nSrinagar"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="Uttrakhand"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="1992"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="II"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="Subject of\nCommerce"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                        </TableRow>
+                        <TableRow>
+                            <TextView
+                                android:text="4."
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="M.Com"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="Garhwal\nUniversity,\nSrinagar"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="Uttrakhand"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="1994"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="II"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="Subject of\nCommerce"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                        </TableRow>
+                        <TableRow>
+                            <TextView
+                                android:text="5."
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="LLB"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="Garhwal\nUniversity,\nSrinagar"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="Uttrakhand"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="2002"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="II"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="Law"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                        </TableRow>
+                        <TableRow>
+                            <TextView
+                                android:text="6."
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="C.A.(Inter)"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="ICA Kanpur"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="Uttar\nPradesh"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="1995"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                            <TextView
+                                android:text="Institute of\nCharted Accountant"
+                                android:textSize="16sp"
+                                android:padding="8dp"/>
+                        </TableRow>
+
+                    </TableLayout>
+                    </HorizontalScrollView>
+                    </ScrollView>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorAccent" />
+        <View
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/colorAccent" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

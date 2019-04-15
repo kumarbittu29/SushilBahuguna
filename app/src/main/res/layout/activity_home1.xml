@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="285sp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/mouu"
+                        android:scaleType="centerCrop"/>
+                    <ImageView
+                        android:layout_width="130sp"
+                        android:layout_height="130sp"
+                        android:background="@drawable/rec1"
+                        android:src="@drawable/ic_account_circle"
+                        android:layout_centerInParent="true"/>
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="10sp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5sp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="SUSHIL "
+                            android:textStyle="bold"
+                            android:textSize="28sp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="BAHUGUNA"
+                            android:textColor="#ff7300"
+                            android:textStyle="bold"
+                            android:textSize="28sp"/>
+                    </LinearLayout>
+                    <View
+                        android:layout_width="300sp"
+                        android:layout_height="2sp"
+                        android:background="#ff7300"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TEAM LEADER"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#cecece">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="25sp"
+                        android:text="@string/address"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="#2b3942"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="sushilbahuguna@gmail.com"
+                            android:textColor="#e2e2e2" />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.7">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="15sp"
+                        android:background="#ff7300" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/mess"
+            android:layout_width="60sp"
+            android:layout_height="50sp"
+            android:background="@drawable/round"
+            android:src="@drawable/ic_message_black_24dp"
+            android:padding="7sp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="35sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5sp"
+            android:background="@color/colorAccent"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_blur_on_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/edu"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="Education" />
+        <item
+            android:id="@+id/events"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="About" />
+        <item
+            android:id="@+id/feed"
+            android:icon="@drawable/ic_supervisor_account"
+            android:title="Other Information" />
+        <item
+            android:id="@+id/trn"
+            android:icon="@drawable/ic_touch_app"
+            android:title="Training" />
+
+
+    </group>
+    <item android:title="DEVELOPER">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_send_black_24dp"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/developer"
+                android:icon="@drawable/ic_developer_mode_black_24dp"
+                android:title="Developer" />
+        </menu>
+    </item>
+
+</menu>
